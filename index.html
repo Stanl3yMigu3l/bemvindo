@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo novamente MARNES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>2 reais ou um presente misterioso</h1>
+        <button class="open-button" onclick="openModal()">Ver Foto</button>
+    </div>
+
+    <div class="modal" id="photoModal">
+        <button class="close-button" onclick="closeModal()">&times;</button>
+        <div class="modal-content">
+            <img src="foto.jpeg" alt="Foto MARNES" id="modalImage">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
